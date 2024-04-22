@@ -1,0 +1,21 @@
+"0","library(dbplyr)"
+"2","Registered S3 methods overwritten by 'dbplyr':
+  method         from
+  print.tbl_lazy     
+  print.tbl_sql      
+"
+"2","
+Attaching package: ‘dbplyr’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    ident, sql
+
+"
+"0","con <- DBI::dbConnect("
+"0","  duckdb::duckdb(), "
+"0","  dbdir = ""my-db.duckdb"""
+"0","  )"
+"2","Error: rapi_startup: Failed to open database: IO Error: Cannot open file ""my-db.duckdb"": The process cannot access the file because it is being used by another process.
+"

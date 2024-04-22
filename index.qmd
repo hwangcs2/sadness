@@ -1,0 +1,13 @@
+---
+title: "Final Project"
+image: 'penguin.jpg'
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links: 
+    - text: Visual of me working on this project
+      href: https://youtu.be/6Vf3zRLlUR8?si=e5q0Yto28ZT_ZI0S
+---
+
+This is Chapter 1 through Chapter 6 of *DevOps for Data Science* by Alex Gold.

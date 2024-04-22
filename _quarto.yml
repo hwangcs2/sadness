@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Final Project By Cy Hwang"
+  navbar:
+    left:
+      - href: index.qmd
+      - eda.qmd
+      - Model.qmd
+
+format:
+  html:
+    theme: sandstone
+    mainfont: arial
+    fontsize: 1.5rem
+    fontcolor: "#0013d5"
+    linkcolor: '#ff33f0'
+    monofont: courier new
+    css: styles.css
+    toc: true
+    code-fold: true
+    echo: false
+
+editor: visual
+

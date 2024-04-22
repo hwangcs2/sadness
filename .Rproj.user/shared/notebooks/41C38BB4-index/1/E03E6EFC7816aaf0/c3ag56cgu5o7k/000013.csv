@@ -1,0 +1,4 @@
+"0","from vetiver import VetiverModel, VetiverAPI"
+"0","from pins import board_folder"
+"0","v = VetiverModel(model, model_name='penguin_model', prototype_data=X)"
+"0",""
